@@ -1,0 +1,10 @@
+Для установки пакетов:
+npm install
+Для запуска проекта введите:
+npm run startTest
+
+
+Роль 1: Видит всё - Login: user1, Password: user1
+Роль 2: Видит только определенные компании - Login: user2, Password: user2
+Роль 3: Видит все компании, но только актуальные осмотры - Login: user3, Password: user4
+Роль 4. Видит только свои компании и только актуальные осмотры -  Login: user4, Password: user4
