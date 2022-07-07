@@ -2,13 +2,11 @@
   <div>
     <div class="profile-nav">
       <div class="profile-nav__container">
-        <p class="profile-nav__position">{{userData.position}}</p>
         <div @click="isOpen" :class="{'is-open': open}" class="profile-nav__name">{{userData.name}}
           <div class="profile-nav__info-block">
             <ul>
               <li>Логин: {{userData.login}}</li>
               <li>Фамилия: {{userData.lastName}}</li>
-              <li>Роль: {{userData.role}}</li>
             </ul>
           </div>
         </div>

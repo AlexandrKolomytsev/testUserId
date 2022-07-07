@@ -61,11 +61,9 @@ export default {
           } else {
             let user = data[0]
             this.userData = {
-              role: user.role,
               login: user.login,
               name: user.name,
-              lastName: user.lastName,
-              position: user.position
+              lastName: user.lastName
             }
             localStorage.setItem('userData', JSON.stringify(this.userData))
             this.isAuth = true
