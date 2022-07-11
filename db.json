@@ -1,8 +1,8 @@
 {
   "users": [
-    { "id": 1, "role": "role-one", "login": "user1", "password": "user1", "name": "Александр", "lastName": "Иванов", "position": "Администротор" },
-    { "id": 2, "role": "role-two", "login": "user2", "password": "user2", "name": "Марина", "lastName": "Смирнов", "position": "Сотрудник компании" },
-    { "id": 3, "role": "role-three", "login": "user3", "password": "user3", "name": "Михаил", "lastName": "Соболев", "position": "Продавец" },
-    { "id": 4, "role": "role-four", "login": "user4", "password": "user4", "name": "Инокентий", "lastName": "Петров", "position": "Оператор колл-центра" }
+    { "id": 1, "login": "user1", "password": "user1", "name": "Александр", "lastName": "Иванов" },
+    { "id": 2, "login": "user2", "password": "user2", "name": "Марина", "lastName": "Смирнов" },
+    { "id": 3, "login": "user3", "password": "user3", "name": "Михаил", "lastName": "Соболев" },
+    { "id": 4, "login": "user4", "password": "user4", "name": "Инокентий", "lastName": "Петров" }
   ]
 }

@@ -4,11 +4,6 @@
       <nav class="header container">
         <div class="nav__items">
           <div class="nav__item">
-            <a href="">
-              <img src="@/assets/img/logo.png" alt="Лого">
-            </a>
-          </div>
-          <div class="nav__item">
             <a href="">Главная</a>
               <router-link to="/login"><span @click="logOut">Выйти</span></router-link>
           </div>
